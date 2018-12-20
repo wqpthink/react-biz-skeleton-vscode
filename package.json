@@ -1,6 +1,6 @@
 {
     "name": "react-biz-skeleton-vscode",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "base vscode react biz skeletion extension",
     "license": "SEE LICENSE IN LICENSE",
     "publisher": "zfengfei",
@@ -14,6 +14,7 @@
         "type": "git",
         "url": "https://github.com/zfengfei/react-biz-skeleton-vscode.git"
     },
+    "icon": "src/asset/react.png",
     "main": "./out/extension",
     "engines": {
         "vscode": "^1.30.0"
