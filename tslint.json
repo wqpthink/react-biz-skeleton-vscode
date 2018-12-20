@@ -1,0 +1,9 @@
+{
+    "rules": {
+        "triple-equals": [true, "allow-null-check"],
+        "class-name": true,
+        "curly": [true,"ignore-same-line"],
+        "semicolon": [true, "always"]
+    },
+    "defaultSeverity": "warning"
+}
