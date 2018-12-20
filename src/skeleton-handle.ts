@@ -5,8 +5,6 @@ import * as path from 'path';
 import * as skeleton_template from './skeleton-template';
 
 export function activate(dir: string, biz_name: string){
-    console.log("paths:"+dir);
-    console.log("contents:"+biz_name);
     const root_path = dir + path.sep + biz_name.toLowerCase().trim();
     const store_path = root_path + path.sep + "store";
     const new_react_component = biz_name.substring(0,1).toUpperCase() + biz_name.substring(1);
