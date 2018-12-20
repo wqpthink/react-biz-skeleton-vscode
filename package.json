@@ -3,13 +3,17 @@
     "version": "0.0.1",
     "description": "base vscode react biz skeletion extension",
     "license": "SEE LICENSE IN LICENSE",
-    "publisher": "WQP",
+    "publisher": "zfengfei",
     "displayName": "react-biz-skeleton",
     "keywords": [
         "vscode",
         "react",
         "react-biz-skeleton"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zfengfei/react-biz-skeleton-vscode.git"
+    },
     "main": "./out/extension",
     "engines": {
         "vscode": "^1.30.0"
