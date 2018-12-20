@@ -29,19 +29,5 @@ export function activate(dir: string, biz_name: string){
     fs.writeFileSync(store_interface_name, skeleton_template.generateInterfaceTemplate());
     fs.writeFileSync(store_reducer_name, skeleton_template.generateReducerTemplate());
 
-    // const new_component_origion = skeleton_template.generateComponentTemplate(new_react_component, new_react_style);
-    // const new_style_origin = skeleton_template.generateStyleTemplate();
-    // const new_interface_origin = skeleton_template.generateInterfaceTemplate();
-    // const new_reducer_origin = skeleton_template.generateReducerTemplate();
-
-    // console.log(new_component_origion);
-    // fs.readFile(new_component_origion, {encoding: 'utf-8',flag: 'r'}, (err, content) => {
-
-    //     console.log("read file:"+content);
-    // });
-    
-
-    
-
 }
 
