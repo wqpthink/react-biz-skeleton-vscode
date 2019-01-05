@@ -9,7 +9,7 @@ export function activate(dir: string, biz_name: string){
     const store_path = root_path + path.sep + "store";
     const new_react_component = biz_name.substring(0,1).toUpperCase() + biz_name.substring(1);
     const new_react_style = biz_name.toLowerCase() + "-style";
-    const react_component_name = root_path + path.sep + new_react_component + ".js";
+    const react_component_name = root_path + path.sep + new_react_component + ".jsx";
     const react_component_style_name = root_path + path.sep + new_react_style + ".js";
     const store_actioncreators_name = store_path + path.sep + "actionCreators.js";
     const store_actionTypes_name = store_path + path.sep + "actionTypes.js";
